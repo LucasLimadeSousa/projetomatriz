@@ -1,0 +1,14 @@
+/home/lsousa/projetomatriz/Program.cs/bin/Debug/net9.0/Program.cs
+/home/lsousa/projetomatriz/Program.cs/bin/Debug/net9.0/Program.cs.deps.json
+/home/lsousa/projetomatriz/Program.cs/bin/Debug/net9.0/Program.cs.runtimeconfig.json
+/home/lsousa/projetomatriz/Program.cs/bin/Debug/net9.0/Program.cs.dll
+/home/lsousa/projetomatriz/Program.cs/bin/Debug/net9.0/Program.cs.pdb
+/home/lsousa/projetomatriz/Program.cs/obj/Debug/net9.0/Program.cs.GeneratedMSBuildEditorConfig.editorconfig
+/home/lsousa/projetomatriz/Program.cs/obj/Debug/net9.0/Program.cs.AssemblyInfoInputs.cache
+/home/lsousa/projetomatriz/Program.cs/obj/Debug/net9.0/Program.cs.AssemblyInfo.cs
+/home/lsousa/projetomatriz/Program.cs/obj/Debug/net9.0/Program.cs.csproj.CoreCompileInputs.cache
+/home/lsousa/projetomatriz/Program.cs/obj/Debug/net9.0/Program.cs.dll
+/home/lsousa/projetomatriz/Program.cs/obj/Debug/net9.0/refint/Program.cs.dll
+/home/lsousa/projetomatriz/Program.cs/obj/Debug/net9.0/Program.cs.pdb
+/home/lsousa/projetomatriz/Program.cs/obj/Debug/net9.0/Program.cs.genruntimeconfig.cache
+/home/lsousa/projetomatriz/Program.cs/obj/Debug/net9.0/ref/Program.cs.dll
