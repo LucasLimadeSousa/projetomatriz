@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/lsousa/projetomatriz/Program.cs/Program.cs.csproj": {}
+    "C:\\Users\\limao\\OneDrive\\Documentos\\projetomatriz\\Program.cs\\Program.cs.csproj": {}
   },
   "projects": {
-    "/home/lsousa/projetomatriz/Program.cs/Program.cs.csproj": {
+    "C:\\Users\\limao\\OneDrive\\Documentos\\projetomatriz\\Program.cs\\Program.cs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lsousa/projetomatriz/Program.cs/Program.cs.csproj",
+        "projectUniqueName": "C:\\Users\\limao\\OneDrive\\Documentos\\projetomatriz\\Program.cs\\Program.cs.csproj",
         "projectName": "Program.cs",
-        "projectPath": "/home/lsousa/projetomatriz/Program.cs/Program.cs.csproj",
-        "packagesPath": "/home/lsousa/.nuget/packages/",
-        "outputPath": "/home/lsousa/projetomatriz/Program.cs/obj/",
+        "projectPath": "C:\\Users\\limao\\OneDrive\\Documentos\\projetomatriz\\Program.cs\\Program.cs.csproj",
+        "packagesPath": "C:\\Users\\limao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\limao\\OneDrive\\Documentos\\projetomatriz\\Program.cs\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/lsousa/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\limao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/lib64/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -60,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.108/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
