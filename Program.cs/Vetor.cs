@@ -1,4 +1,4 @@
-﻿public class Vetor
+﻿public class Vetor : AlgebraLinear
 {
     public int Dimensao { get; set; }
     public int[,] Elementos { get; set; }

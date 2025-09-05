@@ -1,4 +1,4 @@
-﻿public class Matriz
+﻿public class Matriz : AlgebraLinear
 {
     private int Linhas { get; set; }
     private int Colunas { get; set; }
