@@ -1,6 +1,9 @@
-﻿Vetor v = new Vetor(2, [5,6]);
+﻿Matriz bleh = new Matriz(3,1);
 
-v.setValor(0,3);
+bleh.setValorMatriz(0,0,3);
+bleh.setValorMatriz(1,0,4);
+bleh.setValorMatriz(2,0,9);
 
-Console.WriteLine(v.getValor(0));
-Console.WriteLine(v.getValor(1));
+var titioAvo = AlgebraLinear.times(5, bleh.Elementos);
+
+Matriz.mostrarMatriz(titioAvo);

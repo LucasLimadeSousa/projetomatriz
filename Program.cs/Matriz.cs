@@ -1,14 +1,14 @@
 ﻿public class Matriz : AlgebraLinear
 {
-    private int Linhas { get; set; }
-    private int Colunas { get; set; }
-    public Array Elementos { get; set; }
+    public int Linhas { get; set; }
+    public int Colunas { get; set; }
+    public int[,] Elementos { get; set; }
 
     public Matriz(int linhas, int colunas)
     {
-        Linhas = linhas;
-        Colunas = colunas;
-        Elementos = new int[linhas, colunas];
+        this.Linhas = linhas;
+        this.Colunas = colunas;
+        this.Elementos = new int[linhas,colunas];   
     }
 
     public void setValorMatriz(int linhas, int colunas, int valor)
@@ -21,13 +21,13 @@
         return (int)Elementos.GetValue(linhas, colunas);
     }
 
-    public void mostrarMatriz()
+    public static void mostrarMatriz(int[,] matriz)
     {
-        for (int i = 0; i < Linhas; i++)
+        for (int i = 0; i < matriz.GetLength(0); i++)
         {
-            for (int j = 0; j < Colunas; j++)
+            for (int j = 0; j < matriz.GetLength(1); j++)
             {
-                Console.Write(Elementos.GetValue(i, j));
+                Console.Write(matriz.GetValue(i,j));
                 Console.Write(" ");
             }
             Console.WriteLine("");
