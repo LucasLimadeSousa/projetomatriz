@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{4A6C0D36-39B9-4AA9-A9B7-11360D17C295}|Program.cs\\Program.cs.csproj|solutionrelative:program.cs\\algebralinear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A6C0D36-39B9-4AA9-A9B7-11360D17C295}|Program.cs\\Program.cs.csproj|c:\\users\\limao\\onedrive\\documentos\\projetomatriz\\program.cs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A6C0D36-39B9-4AA9-A9B7-11360D17C295}|Program.cs\\Program.cs.csproj|solutionrelative:program.cs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A6C0D36-39B9-4AA9-A9B7-11360D17C295}|Program.cs\\Program.cs.csproj|c:\\users\\limao\\onedrive\\documentos\\projetomatriz\\program.cs\\matriz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A6C0D36-39B9-4AA9-A9B7-11360D17C295}|Program.cs\\Program.cs.csproj|solutionrelative:program.cs\\matriz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6C0D36-39B9-4AA9-A9B7-11360D17C295}|Program.cs\\Program.cs.csproj|c:\\users\\limao\\onedrive\\documentos\\projetomatriz\\program.cs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6C0D36-39B9-4AA9-A9B7-11360D17C295}|Program.cs\\Program.cs.csproj|solutionrelative:program.cs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A6C0D36-39B9-4AA9-A9B7-11360D17C295}|Program.cs\\Program.cs.csproj|c:\\users\\limao\\onedrive\\documentos\\projetomatriz\\program.cs\\vetor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Program.cs\\AlgebraLinear.cs",
               "ToolTip": "C:\\Users\\limao\\OneDrive\\Documentos\\projetomatriz\\Program.cs\\AlgebraLinear.cs",
               "RelativeToolTip": "Program.cs\\AlgebraLinear.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-05T21:23:45.163Z",
               "EditorCaption": ""
@@ -49,33 +49,32 @@
               "RelativeDocumentMoniker": "Program.cs\\Vetor.cs",
               "ToolTip": "C:\\Users\\limao\\OneDrive\\Documentos\\projetomatriz\\Program.cs\\Vetor.cs",
               "RelativeToolTip": "Program.cs\\Vetor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T19:57:00.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T19:57:00.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Matriz.cs",
               "DocumentMoniker": "C:\\Users\\limao\\OneDrive\\Documentos\\projetomatriz\\Program.cs\\Matriz.cs",
               "RelativeDocumentMoniker": "Program.cs\\Matriz.cs",
               "ToolTip": "C:\\Users\\limao\\OneDrive\\Documentos\\projetomatriz\\Program.cs\\Matriz.cs",
               "RelativeToolTip": "Program.cs\\Matriz.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAA5wBQAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T17:24:37.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\limao\\OneDrive\\Documentos\\projetomatriz\\Program.cs\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs\\Program.cs",
               "ToolTip": "C:\\Users\\limao\\OneDrive\\Documentos\\projetomatriz\\Program.cs\\Program.cs",
               "RelativeToolTip": "Program.cs\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T17:24:05.471Z",
               "EditorCaption": ""

@@ -1,7 +1,7 @@
 ﻿public class Matriz : AlgebraLinear
 {
-    public int Linhas { get; set; }
-    public int Colunas { get; set; }
+    public int Linhas { get; }
+    public int Colunas { get; }
     public int[,] Elementos { get; set; }
 
     public Matriz(int linhas, int colunas)
