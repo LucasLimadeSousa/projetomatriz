@@ -3,9 +3,9 @@ using System.Runtime.Serialization.Formatters;
 
 public class AlgebraLinear
 {
-    public static int[,] transpose(int[,] matriz) 
+    public static double[,] transpose(int[,] matriz) 
     {
-        int [,] result = new int[matriz.GetLength(1),matriz.GetLength(0)];
+        double[,] result = new double[matriz.GetLength(1),matriz.GetLength(0)];
         for (int coluna = 0; coluna < matriz.GetLength(1); coluna++)
         {
             for(int linha = 0; linha < matriz.GetLength(0); linha++)
@@ -16,11 +16,11 @@ public class AlgebraLinear
         return result;
     }
 
-    public static int[,] sum(int[,] matriz, int[,] matriz2) 
+    public static double[,] sum(double[,] matriz, double[,] matriz2) 
     {
         if (matriz.GetLength(0) == matriz2.GetLength(0) && matriz.GetLength(1) == matriz2.GetLength(1))
         {
-            int[,] soma = new int[matriz.GetLength(0), matriz.GetLength(1)];
+            double[,] soma = new double[matriz.GetLength(0), matriz.GetLength(1)];
             for (int linha = 0; linha < matriz2.GetLength(0); linha++) 
             {
                 for(int coluna = 0; coluna < matriz2.GetLength(1); coluna++) 
@@ -37,9 +37,9 @@ public class AlgebraLinear
         }
     }
 
-    public static int[,] times(int num, int[,] matriz)
+    public static double[,] times(int num, double[,] matriz)
     {
-        int [,] result = new int[matriz.GetLength(0),matriz.GetLength(1)];
+        double[,] result = new double[matriz.GetLength(0), matriz.GetLength(1)];
         for(int linha = 0; linha < matriz.GetLength(0); linha++)
         {
             for( int coluna = 0; coluna < matriz.GetLength(1); coluna++)
@@ -50,11 +50,11 @@ public class AlgebraLinear
         return result;
     }
 
-    public static int[,] dot(int[,] matriz, int[,] matriz2) 
+    public static double[,] dot(double[,] matriz, double[,] matriz2) 
     {
         if(matriz.GetLength(1) == matriz2.GetLength(0))
         {
-            int[,] matrizResultante = new int[matriz.GetLength(0),matriz2.GetLength(1)];
+            double[,] matrizResultante = new double[matriz.GetLength(0), matriz2.GetLength(1)];
             for (int linha = 0; linha < matriz.GetLength(0); linha++)
             {
                 for (int coluna = 0; coluna < matriz2.GetLength(1); coluna++)
@@ -76,16 +76,16 @@ public class AlgebraLinear
         }
     }
 
-    public static int[,] gauss(int[,] a)
+    public static double[,] gauss(double[,] a)
     {
-        int[,] b = new int[a.GetLength(0),a.GetLength(1)];
+        double[,] b = new double[a.GetLength(0), a.GetLength(1)];
         for (int cont = 0; cont < a.GetLength(1); cont++)
         {
             b[0,cont] = a[0,cont];
         }
         for(int i = 1; i < a.GetLength(0); i++) 
         {
-            int f = a[i,0] / a[0,0];
+            double f = a[i,0] / a[0,0];
             for(int j = 0; j < a.GetLength(1); j++) 
             {
                 b[i,j] = a[i,j] - a[0,j] * f ;
@@ -93,22 +93,29 @@ public class AlgebraLinear
         }
         return b;
     }
-    public static int[,] solve(int[,] a)
+    public static double[,] solve(double[,] a)
     {
-        int[,] b = new int[a.GetLength(0), a.GetLength(1)];
-        for (int cont = 0; cont < a.GetLength(1); cont++)
+        double[,] b = gauss(a);
+        var c = new double[b.GetLength(1) - 1,1];
+        if (b.GetLength(1) - 1 != 3) 
         {
-            b[0, cont] = a[0, cont];
-        }
-        for (int i = 1; i < a.GetLength(0); i++)
+            double x, y;
+            y = b[1,2] / b[1, 1];
+            x = (b[0,2] - b[0,1] * y) / b[0,0];
+            c[0,0] = x;
+            c[1,0] = y;
+            return c;
+        } else
         {
-            int f = a[i, 0] / a[0, 0];
-            for (int j = 0; j < a.GetLength(1); j++)
-            {
-                b[i, j] = a[i, j] - a[0, j] * f;
-            }
+            double x, y,z;
+            z = b[2, 3] / b[2, 2];
+            y = (b[1, 3] - b[1, 2] * z) / b[1, 1];  
+            x = (b[0, 3] - b[0, 2] * z - b[0,1] * y) / b[0, 0];
+            c[0, 0] = x;
+            c[1, 0] = y;
+            c[2, 0] = z;
+            return c;
         }
-        return b;
     }
 }
 

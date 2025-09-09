@@ -2,26 +2,26 @@
 {
     public int Linhas { get; }
     public int Colunas { get; }
-    public int[,] Elementos { get; set; }
+    public double[,] Elementos { get; set; }
 
     public Matriz(int linhas, int colunas)
     {
         this.Linhas = linhas;
         this.Colunas = colunas;
-        this.Elementos = new int[linhas,colunas];   
+        this.Elementos = new double[linhas,colunas];   
     }
 
-    public void setValorMatriz(int linhas, int colunas, int valor)
+    public void setValorMatriz(int linhas, int colunas, double valor)
     {
         Elementos.SetValue(valor, linhas, colunas);
     }
 
-    public int getValorMatriz(int linhas, int colunas) 
+    public double getValorMatriz(int linhas, int colunas) 
     {
-        return (int)Elementos.GetValue(linhas, colunas);
+        return (double)Elementos.GetValue(linhas, colunas);
     }
 
-    public static void mostrarMatriz(int[,] matriz)
+    public static void mostrarMatriz(double[,] matriz)
     {
         for (int i = 0; i < matriz.GetLength(0); i++)
         {
