@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Program.cs\\AlgebraLinear.cs",
               "ToolTip": "C:\\Users\\limao\\OneDrive\\Documentos\\projetomatriz\\Program.cs\\AlgebraLinear.cs",
               "RelativeToolTip": "Program.cs\\AlgebraLinear.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAmwF4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-05T21:23:45.163Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Program.cs\\Matriz.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T17:24:37.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T17:24:37.587Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Program.cs\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T17:24:05.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T17:24:05.471Z"
             }
           ]
         }

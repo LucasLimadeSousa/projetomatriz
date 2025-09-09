@@ -93,5 +93,22 @@ public class AlgebraLinear
         }
         return b;
     }
+    public static int[,] solve(int[,] a)
+    {
+        int[,] b = new int[a.GetLength(0), a.GetLength(1)];
+        for (int cont = 0; cont < a.GetLength(1); cont++)
+        {
+            b[0, cont] = a[0, cont];
+        }
+        for (int i = 1; i < a.GetLength(0); i++)
+        {
+            int f = a[i, 0] / a[0, 0];
+            for (int j = 0; j < a.GetLength(1); j++)
+            {
+                b[i, j] = a[i, j] - a[0, j] * f;
+            }
+        }
+        return b;
+    }
 }
 
